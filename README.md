@@ -51,5 +51,5 @@ correct version; if not, alternates version can be downloaded separately.
 
 <https://github.com/AntoineGauquier/inferring_document_class_of_scientific_article/>
 
-Antoine Gauquier <antoine.gauquier@ens.psl.eu>
-Pierre Senellart <pierre@senellart.com>
+* Antoine Gauquier <antoine.gauquier@ens.psl.eu>
+* Pierre Senellart <pierre@senellart.com>
