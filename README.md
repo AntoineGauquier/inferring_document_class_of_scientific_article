@@ -40,6 +40,10 @@ fields, in order:
 1. `md5_hash` is a MD5 hash of the content of the PDF file. This helps
    disambiguate different versions of the same article stored on arXiv.
 
+1. `nb_occurrences` is the number of times the PDF is seen/evaluated by the model after applying oversampling.
+
+1. `split` is describing either the PDF belongs to training set (`train`) or to test set (`test`).
+
 To obtain the exact same dataset, you should use one of the [Bulk
 Access](https://info.arxiv.org/help/bulk_data.html) facilities of arXiv
 (we used the AWS option, and all content was retrieved in June 2020) and,
