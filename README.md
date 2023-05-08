@@ -53,6 +53,38 @@ as explained there, not directly crawl the main arXiv Web site. Use the
 `last_modified` and `md5_hash` fields to verify that each article is the
 correct version; if not, alternates version can be downloaded separately.
 
+## Code
+
+You will find in the [code](code/) directory the Keras code of the three
+main models proposed:
+
+- [code/cnn_model_multiclass_merged_classes.py] for the simple CNN
+    architecture on 33 classes
+- [code/cnn_model_binary_rejection.py] for the binary rejector model
+    to determine whether an article belongs to a homogeneous class
+- [code/cnn_model_multiclass_merged_classes_non_heterogeneous.py] for the
+    simple CNN artchitecture on 31 homogeneous classes, to be used after
+    the rejector
+
+## Models
+
+You will find in the [models/](models) directory all trained CNN models used;
+note that you need Git Large File Storage (git-lfs) installed and
+initialized to retrieve these models:
+
+- [models/model_multiclass_33classes_256_256.h5] for the simple CNN
+    architecture on 33 classes
+- [models/model_resnet50v2_256_256.h5] for the ResNet50V2 architecture on
+    33 classes
+- [models/model_nasnetmobile_256_256.h5] for the NASNetMobile
+    architecture on 33 classes
+- [models/model_efficientnetv2b0_256_256.h5] for the EfficientNetV2B0
+    architecture on 33 classes
+- [models/model_binary_rejector_256_256.h5] for the binary rejector to
+    detect homogenerous classes
+- [models/model_multiclass_31classes_256_256.h5] for the simple CNN
+    architecture on 31 homogeneous classes
+
 ## Contact
 
 <https://github.com/AntoineGauquier/inferring_document_class_of_scientific_article/>
