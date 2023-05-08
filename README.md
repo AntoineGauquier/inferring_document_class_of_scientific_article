@@ -25,7 +25,7 @@ row, the file contains one article per row with the following column
 fields, in order:
 
 1. `arxiv_identifier` is the unique arXiv identifier, of the form
-   `YYMM.NNNNN` of the article. The metadata and PDF of such an
+   `arXiv:YYMM.NNNNN` of the article. The metadata and PDF of such an
    article, respectively, are at the following official URLs:
    `https://arxiv.org/abs/YYMM.NNNNN` and
    `https://arxiv.org/pdf/YYMM.NNNNN.pdf`
@@ -40,9 +40,11 @@ fields, in order:
 1. `md5_hash` is a MD5 hash of the content of the PDF file. This helps
    disambiguate different versions of the same article stored on arXiv.
 
-1. `nb_occurrences` is the number of times the PDF is seen/evaluated by the model after applying oversampling.
+1. `nb_occurrences` is the number of occurrences of the PDF article in
+   the oversampled dataset.
 
-1. `split` is describing either the PDF belongs to training set (`train`) or to test set (`test`).
+1. `split` is describing whether the PDF belongs to the training set (`train`)
+   or to the test set (`test`).
 
 To obtain the exact same dataset, you should use one of the [Bulk
 Access](https://info.arxiv.org/help/bulk_data.html) facilities of arXiv
