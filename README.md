@@ -20,7 +20,7 @@ this reason, we cannot provide the entire dataset in full, but we do
 provide here explanations on how to build the same dataset.
 
 The list of all articles used for this dataset is available in the
-(comma-separated) CSV file <dataset_information.csv>; after one header
+(comma-separated) CSV file [dataset_information.csv](dataset_information.csv); after one header
 row, the file contains one article per row with the following column
 fields, in order:
 
@@ -58,11 +58,11 @@ correct version; if not, alternates version can be downloaded separately.
 You will find in the [code](code/) directory the Keras code of the three
 main models proposed:
 
-- <code/cnn_model_multiclass_merged_classes.py> for the simple CNN
+- [code/cnn_model_multiclass_merged_classes.py](code/cnn_model_multiclass_merged_classes.py) for the simple CNN
     architecture on 33 classes
-- <code/cnn_model_binary_rejection.py> for the binary rejector model
+- [code/cnn_model_binary_rejection.py](code/cnn_model_binary_rejection.py) for the binary rejector model
     to determine whether an article belongs to a homogeneous class
-- <code/cnn_model_multiclass_merged_classes_non_heterogeneous.py> for the
+- [code/cnn_model_multiclass_merged_classes_non_heterogeneous.py](code/cnn_model_multiclass_merged_classes_non_heterogeneous.py) for the
     simple CNN artchitecture on 31 homogeneous classes, to be used after
     the rejector
 
@@ -72,17 +72,17 @@ You will find in the [models/](models) directory all trained CNN models used;
 note that you need Git Large File Storage (git-lfs) installed and
 initialized to retrieve these models:
 
-- <models/model_multiclass_33classes_256_256.h5> for the simple CNN
+- [models/model_multiclass_33classes_256_256.h5](models/model_multiclass_33classes_256_256.h5) for the simple CNN
     architecture on 33 classes
-- <models/model_resnet50v2_256_256.h5> for the ResNet50V2 architecture on
+- [models/model_resnet50v2_256_256.h5](models/model_resnet50v2_256_256.h5) for the ResNet50V2 architecture on
     33 classes
-- <models/model_nasnetmobile_256_256.h5> for the NASNetMobile
+- [models/model_nasnetmobile_256_256.h5](models/model_nasnetmobile_256_256.h5) for the NASNetMobile
     architecture on 33 classes
-- <models/model_efficientnetv2b0_256_256.h5> for the EfficientNetV2B0
+- [models/model_efficientnetv2b0_256_256.h5](models/model_efficientnetv2b0_256_256.h5) for the EfficientNetV2B0
     architecture on 33 classes
-- <models/model_binary_rejector_256_256.h5> for the binary rejector to
+- [models/model_binary_rejector_256_256.h5](models/model_binary_rejector_256_256.h5) for the binary rejector to
     detect homogenerous classes
-- <models/model_multiclass_31classes_256_256.h5> for the simple CNN
+- [models/model_multiclass_31classes_256_256.h5](models/model_multiclass_31classes_256_256.h5) for the simple CNN
     architecture on 31 homogeneous classes
 
 ## Contact
