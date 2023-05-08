@@ -5,9 +5,6 @@ research article [*Automatically Inferring the Document Class of a
 Scientific Article*](article.pdf) by Antoine Gauquier and [Pierre
 Senellart](https://pierre.senellart.com/).
 
-Some more content will be added within this repository over the coming
-weeks.
-
 ## Dataset
 
 We used 98713 articles in PDF format (completed by their sources to
