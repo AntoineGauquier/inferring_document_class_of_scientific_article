@@ -1,9 +1,14 @@
 # Automatically Inferring the Document Class of a Scientific Article
 
-This repository provides code, data, and models supplementing the
+This repository provides additional content, code, data, and models supplementing the
 research article [*Automatically Inferring the Document Class of a
-Scientific Article*](article.pdf) by Antoine Gauquier and [Pierre
+Scientific Article*](short.pdf) by Antoine Gauquier and [Pierre
 Senellart](https://pierre.senellart.com/).
+
+## Additional content
+
+[Appendix to the original paper](appendix.pdf), with complete list of
+labels and detailed experimental results.
 
 ## Dataset
 
