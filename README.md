@@ -2,8 +2,10 @@
 
 This repository provides additional content, code, data, and models supplementing the
 research article [*Automatically Inferring the Document Class of a
-Scientific Article*](short.pdf) by Antoine Gauquier and [Pierre
-Senellart](https://pierre.senellart.com/).
+Scientific Article*](article.pdf) by Antoine Gauquier and [Pierre
+Senellart](https://pierre.senellart.com/), published at [DocEng
+2023](https://doceng.org/doceng2023), the 23rd ACM Symposium on Document
+Engineering.
 
 ## Additional content
 
